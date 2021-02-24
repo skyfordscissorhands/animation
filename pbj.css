@@ -1,51 +1,72 @@
 body {
-    background-color: aliceblue;
+    color: black;
+    background-color:blanchedalmond;
 }
-h1 {
+nav, h1, h3, p {
         text-align: center;
+    
     }
-
-
-
-.container, .row, .img {
-    transition-property: color, background-color, transform;
-    transition-duration: 2s; 
-    transition-delay: 0s;
-    transition-timing-function: ease-in-out;  
-
-
-    .row:hover {
+img {
+    width: 200px;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 10px;
     
-        color:blanchedalmond;
-        background-color:black;
-        transform: skewX(35deg);
-    }
-       
-   
-    
-    
+}
+.container {
+    width: 100%;
+    margin: 25px;
     
 }
     
-
-
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.col-6 {
+    flex: 1;
     
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
+   
+}
+.img, .steps, .p {
+    -moz-transition-property: color, background-color, transform;
+    transition-property: color, background-color, transform;
+    -moz-transition-duration: 2s; 
+    transition-duration: 2s; 
+    -moz-transition-delay: 0s;
+    transition-delay: 0s;
+    -moz-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+    
+    .img1:hover {
+        color:white;
+        background-color: black;
+        transform: rotate(180deg);  
     }
-    .row{
-        display: flex;
-        flex-direction: column;
+    .img2:hover {
+        color:white;
+        background-color: black;
+        transform: rotate(180deg);
+    }
+    .img3:hover {
+        color:white;
+        background-color: black;
+        transform: rotate(180deg);  
+    }
+    .steps:hover{
+        color:white;
+        background-color: black;
+        transform: scale(2,2);
         
     }
-    .col-6 {
-        flex-shrink: 1;
-        flex-grow: 2;
-        color: black;
-        
+    .p:hover {
+        color: white;
+        background-color: black;
+        transform: skewX(20deg);
     }
+   
 }

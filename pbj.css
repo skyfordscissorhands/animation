@@ -1,0 +1,51 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+        text-align: center;
+    }
+
+
+
+.container, .row, .img {
+    transition-property: color, background-color, transform;
+    transition-duration: 2s; 
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;  
+
+
+    .row:hover {
+    
+        color:blanchedalmond;
+        background-color:black;
+        transform: skewX(35deg);
+    }
+       
+   
+    
+    
+    
+}
+    
+
+
+    
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .col-6 {
+        flex-shrink: 1;
+        flex-grow: 2;
+        color: black;
+        
+    }
+}

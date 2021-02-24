@@ -1,0 +1,113 @@
+body  {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: azure;
+}
+
+
+
+.hover, .rotate, .translatex, .translateY, .threeD, .skew, .scale {
+
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 50px auto;
+    background-color: violet;
+    border-radius: 50px;
+    cursor: pointer; 
+    color: white;
+    /* properties you want to transition add 
+    -moz-transition-property to all transitions */
+    transition-property: color, background-color, transform;
+    /*how long you want the ptopery to start and finisj */
+    transition-duration: 2s; 
+    /* how long intil the transition beigins*/
+    transition-delay: 0s;
+    /* how we want our elerment to transition*/ 
+    transition-timing-function: ease-in-out;  
+}
+
+    .hover:hover { 
+    color:purple;
+    background-color: turquoise;
+    }
+
+    .rotate:hover {
+        color: purple;
+        background-color: turquoise;
+        transform: rotate(360deg);
+    }
+    .skew:hover {
+        color: black;
+        background-color: turquoise;
+        transform: skewX(20deg);
+    }
+    .translatex:hover {
+        color:black ;
+        background-color: turquoise;
+        transform: translateX(30px);
+    }
+    .translateY:hover {
+        color: purple;
+        background-color: turquoise;
+        transform: translateY(30px);
+    }
+    .scale:hover {
+        color: purple;
+        background-color: turquoise;
+        transform: scale(2, 3);
+    }
+    .threeD:hover {
+        color: purple;
+        background-color: turquoise;
+        transform: rotate3d(1, 1, 1, 360deg);
+    }
+h1 {
+    text-align: center;
+}
+.flexbox-container {
+    background-color: rgb(82, 41, 116);
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+
+}
+.column {
+    flex-direction: row;
+    
+}
+.hover {
+    flex: 1;
+   margin: 75px;
+}
+.rotate {
+    flex: 1;
+    margin: 75px;
+}
+.skew {
+    flex: 1;
+    margin: 75px;
+}
+
+.translatex {
+    flex: 1;
+    margin: 75px;
+}
+
+.translateY {
+    flex: 1;
+    margin: 75px;
+    
+}
+.scale {
+    flex: 1;
+    margin: 75px;
+}
+.threeD {
+    flex: 1;
+    margin: 75px;
+}

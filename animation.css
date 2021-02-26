@@ -1,39 +1,38 @@
 body {
-    background-color:red;
-    min-height: 100vh;
-    width: 100vw;
-}
-.flexbox-container {
-    background-color: skyblue;
-    display: flex;
-    flex-direction: column;
-   
-}
-.container2 {
-    background-color: orange;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.sky {
-    background-color: skyblue;
+    color: black;
     
+
+}
+nav {
+    color: black;
+    text-align: center;
+}
+
+   
+
+.sky{
+   background-color: skyblue;
+   width: 100%;
+}
+.sun {
+
 }
 .grass {
-    flex: 1;
-    background-color: green;
-    width: 100%;
    
- }
- .road1 {
-    flex: 1;
-    background-color: grey;
-    width: 100%;
- }
- .road2 {
-    flex: 1;
-    background-color: grey;
-    width: 100%;
- }
+   background-color: green;
+   width: 100%;
  
+}
+.road1 {
+   
+   background-color: grey;
+   width: 100%;
+}
+.road2 {
+   
+   background-color: grey;
+   width: 100%;
+}
+
+
+

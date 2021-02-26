@@ -1,9 +1,10 @@
 body {
-    background-image: url(images/concrete.jpg);
     color: black;
+    background-image: url(images/concrete.jpg);
+    margin: 10px auto;
 
 }
-header {
+nav {
     color: black;
     text-align: center;
 }
@@ -30,16 +31,15 @@ p, ul {
 
 
 img {
-    width: 200px;
+
     border: 10px solid black;
-    padding: 20px;
     margin: 10px;
+    padding: 20px;
     
 }
 .container {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    
     
 }
     
@@ -51,7 +51,8 @@ img {
 }
 .col-6 {
     flex: 1;
-    
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .img, .steps, .p {
     -moz-transition-property: color, background-color, transform;
@@ -66,17 +67,17 @@ img {
     
     .img:hover {
         color:black;
-        background-color: white;
-        transform: rotate(360deg);  
+        background-color:black;
+        transform: translatey(30px);  
     }
     
     .steps:hover{
         
-        transform: skewX(15deg);
+        transform: scale(1.25, 1.25);
     }
     .p:hover {
         color: white;
-        background-color: black;
+        background-color: rosybrown;
         
     }
    

@@ -50,7 +50,7 @@ body  {
     .translateY:hover {
         color: purple;
         background-color: turquoise;
-        transform: translateY(30px);
+        transform: translateY(-30px);
     }
     .scale:hover {
         color: purple;

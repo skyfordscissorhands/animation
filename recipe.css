@@ -54,7 +54,7 @@ img {
     padding-right: 50px;
     padding-left: 50px;
 }
-.img, .steps, .p {
+.img, .img2, .img3, .steps, .p {
     -moz-transition-property: color, background-color, transform;
     transition-property: color, background-color, transform;
     -moz-transition-duration: 2s; 
@@ -73,12 +73,12 @@ img {
     .img2:hover {
         color:black;
         background-color:black;
-        transform: translateX(20px);
+        transform: translateX(40px);
     }
     .img3:hover {
         color:black;
         background-color:black;
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }
 
     .steps:hover{

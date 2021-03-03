@@ -14,7 +14,7 @@
 
             ul li a {
                 border: 1px solid black;
-                box-shadow: 10px 5px 10px 5px grey;
+                box-shadow: 5px 5px 5px 5px grey;
                 text-decoration: none;
                 margin-right: 5px;
                 width: 125px;
@@ -25,7 +25,7 @@
                 text-align: center;
 
             }
-            ul li a :hover{
+            ul li a:hover {
                 background-color: silver;
                 color: springgreen;
                 font-size: 25px;
@@ -39,12 +39,7 @@
                 float: none;
             }
 
-            li .dropdown{ 
-                visibility: hidden;
-
-            }
-            li:hover .dropdown {
-                visibility: hidden;
+           
 
             }
         

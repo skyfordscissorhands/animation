@@ -69,44 +69,52 @@ img {
         transform: skewX(20deg);
     }
    
-}
+
 * {
     margin: 0px;
-    padding: 1.5px;
+    padding: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 ul li {
-    float: left;
+    /* float: left; */
+    display: table-cell;
     list-style-type: none;
     opacity: .8;
 }
+li.sub {    
+   display: block;
+
+}
 ul li a {
-    border: 1px solid black;
+    border: 3px solid black;
     text-decoration: none;
     margin-right: 5px;
-    width: 150px;
+    width: 125px;
     height: 40px;
     line-height: 40px;
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
-   
+    
 }
 ul li a:hover {
     background-color: black;
-    color: white;
-    border: radius 3px; 
+    color: blanchedalmond;
    
 }
-.dropdown {
-    background-color: black;
-    color: white;
-
+.dropdown li a {
+    height: 20px;
+    line-height: 20px;
+}
+.dropdown li  {
+    float:none;
+}
+li .dropdown  {
+    visibility: hidden;
    
 }
-.dropdown2 {
-    display: none;
-   
+li:hover .dropdown {
+    visibility: visible;
 }
 
 

@@ -70,3 +70,33 @@ img {
     }
    
 }
+
+        * {
+            margin: 0px;
+            padding: 1.5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        ul li {
+            float: left;
+            list-style-type: none;
+            opacity: .8;
+        }
+        ul li a {
+            border: 1px solid black;
+            text-decoration: none;
+            margin-right: 5px;
+            width: 150px;
+            height: 40px;
+            line-height: 40px;
+            display: block;
+            color: black;
+            text-align: center;
+            
+        }
+        ul li a:hover {
+            background-color: black;
+            color: white;
+            
+        }
+        
+    
